@@ -1,0 +1,13 @@
+.idea
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+reportWebVitals.js
+setupTests.js
+manifest.json
+robots.txt
+logo.svg
+favicon.ico
+logo192.png
+logo512.png
