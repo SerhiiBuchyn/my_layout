@@ -1,0 +1,54 @@
+.navbar {
+    max-width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.menu__wrapper {
+    max-width: 100%;
+    height: 80px;
+
+}
+
+.navbar__font__style {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.logo {
+    height: 22px;
+    width: 142px;
+}
+
+.logo__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu {
+    column-gap: 50px;
+}
+
+.contact__arrow {
+    margin-left: 10px;
+}
+
+.menu__btn {
+    border: none;
+    background: white;
+}
+
+.burger__menu {
+    display: none;
+}
+
+.burger__btn__element {
+    height: 3px;
+    width: 32px;
+    background-color: var(--dark-grey);
+    margin-bottom: 9px;
+    border-radius: 6px;
+}

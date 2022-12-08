@@ -1,45 +1,30 @@
 module.exports = {
-    'env': {
-        'commonjs': true,
-        'es2021': true,
-        'node': true
+    env: {
+        commonjs: true,
+        es2021: true,
+        node: true
     },
-    'extends': [
-        'eslint:recommended'
-    ],
-    'parserOptions': {
-        'ecmaFeatures': { 'jsx': true },
-        'ecmaVersion': 2020,
-        "sourceType": "module",
+    extends: ["react-app", "react-app/jest", "prettier"],
+    parserOptions: {
+        ecmaFeatures: {jsx: true},
+        ecmaVersion: 2020,
+        sourceType: "module"
     },
-    'plugins': ['react'
-    ],
+    plugins: ["react"],
     rules: {
-        indent: [
-            'error',
-            4
-        ],
-        'jsx-quotes': [
-            'warn',
-            'prefer-double'
-        ],
-        'max-len': [
-            'warn',
+        indent: "off",
+        "jsx-quotes": ["warn", "prefer-double"],
+        "max-len": [
+            "warn",
             {
-                code: 80
+                code: 90
             }
         ],
-        'no-console': 'warn',
-        'no-duplicate-imports': 'warn',
-        'no-unused-vars': 'warn',
-        'object-curly-spacing': [
-            'warn',
-            'always'
-        ],
-        'react/jsx-indent-props': [
-            'error',
-            4
-        ],
-        'react/prop-types': 'warn',
-    },
+        "no-console": "warn",
+        "no-duplicate-imports": "warn",
+        "no-unused-vars": "warn",
+        "object-curly-spacing": ["warn", "always"],
+        "react/jsx-indent-props": ["error", 4],
+        "react/prop-types": "warn"
+    }
 };
