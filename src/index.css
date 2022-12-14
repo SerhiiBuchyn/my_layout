@@ -9,6 +9,7 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
 }
@@ -33,11 +34,16 @@ button {
     cursor: pointer;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: top;
+}
+
 .d-flex {
     display: flex;
 }
 
 .al-i-center {
     align-items: center;
-    text-align: center;
 }

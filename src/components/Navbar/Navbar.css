@@ -1,15 +1,3 @@
-.navbar {
-    max-width: 100%;
-    height: 80px;
-    justify-content: space-between;
-}
-
-.menu__wrapper {
-    max-width: 100%;
-    height: 80px;
-
-}
-
 .navbar__font__style {
     font-style: normal;
     font-weight: 500;
@@ -18,18 +6,24 @@
     color: #000000;
 }
 
+.navbar {
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.menu__wrapper {
+    height: 80px;
+    max-width: 100%;
+}
+
 .logo {
     height: 22px;
     width: 142px;
 }
 
-.logo__img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.menu {
+.menu__list {
     column-gap: 50px;
+    display: flex;
 }
 
 .contact__arrow {
@@ -39,6 +33,13 @@
 .menu__btn {
     border: none;
     background: white;
+}
+
+.language__btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    /*border: none;*/
 }
 
 .burger__menu {

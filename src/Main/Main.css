@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px) {
+    .menu__list {
+        column-gap: 22px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .menu__list {
+        column-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 589px) {
+    .menu__wrapper {
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .burger__menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .menu__wrapper {
+        padding: 0 20px;
+    }
+}
