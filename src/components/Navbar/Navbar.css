@@ -3,7 +3,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #000000;
+    color: var(--black);
 }
 
 .navbar {
@@ -26,20 +26,31 @@
     display: flex;
 }
 
+.menu__list li.active {
+    text-decoration: var(--blue);
+    content: "";
+    color: var(--blue);
+    list-style: disc;
+}
+
+.menu__list li:hover {
+    text-decoration: var(--black);
+}
+
 .contact__arrow {
     margin-left: 10px;
+    padding: 0;
 }
 
 .menu__btn {
     border: none;
-    background: white;
+    background: var(--white);
 }
 
 .language__btn {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    /*border: none;*/
 }
 
 .burger__menu {

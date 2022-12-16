@@ -2,6 +2,10 @@
     .menu__list {
         column-gap: 22px;
     }
+
+    .contact__arrow {
+        margin-left: 3px;
+    }
 }
 
 @media screen and (max-width: 750px) {
