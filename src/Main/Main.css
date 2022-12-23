@@ -1,6 +1,11 @@
+@media screen and (max-width: 850px) {
+    .menu__list {
+        column-gap: 35px;
+    }
+}
 @media screen and (max-width: 800px) {
     .menu__list {
-        column-gap: 22px;
+        column-gap: 30px;
     }
 
     .contact__arrow {
@@ -10,11 +15,17 @@
 
 @media screen and (max-width: 750px) {
     .menu__list {
-        column-gap: 15px;
+        column-gap: 25px;
     }
 }
 
-@media screen and (max-width: 589px) {
+@media screen and (max-width: 650px) {
+    .menu__list {
+        column-gap: 23px;
+    }
+}
+
+@media screen and (max-width: 642px) {
     .menu__wrapper {
         justify-content: space-between;
         padding: 0 30px;

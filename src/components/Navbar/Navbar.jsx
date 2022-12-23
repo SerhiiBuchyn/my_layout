@@ -1,16 +1,13 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
 import { useMatch, useResolvedPath } from "react-router";
 
-import { FiArrowRight } from "react-icons/fi";
 import logo from "../../images/logo.png";
-import language_img from "../../images/Group 120433.png";
+import DropDownMenu from "../DropDownMenu/DropDownMenu";
 
 import "./Navbar.css";
 
 const Navbar = () => {
-	const [open, setOpen] = useState(false);
-
 	const CustomLink = ({ to, children, ...props }) => {
 		const resolvedPath = useResolvedPath(to);
 		const isActive = useMatch({ path: resolvedPath.pathname, end: true });
@@ -46,18 +43,13 @@ const Navbar = () => {
 							</button>
 						</div>
 					</CustomLink>
-
-					<li>
-						<button onClick={() => setOpen(open)} className="language__btn menu__btn">
-							<img className="img" src={language_img} alt="EN" />
-						</button>
-					</li>
+					<DropDownMenu />
 				</ul>
 
-				<button onClick={() => setOpen(open)} className="burger__menu menu__btn">
-					<div className="burger__btn__element"></div>
-					<div className="burger__btn__element"></div>
-					<div className="burger__btn__element"></div>
+				<button className="burger__menu menu__btn">
+					<div className="burger__btn__element"> </div>
+					<div className="burger__btn__element"> </div>
+					<div className="burger__btn__element"> </div>
 				</button>
 			</div>
 		</nav>

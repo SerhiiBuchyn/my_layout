@@ -65,6 +65,97 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+[comment]: <> (DropDownMenu:)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[comment]: <> (import { useState } from "react";)
+
+[comment]: <> (import language_ua_img from "../../images/ukarineflag.png";)
+
+[comment]: <> (import language_en_img from "../../images/usaflag.png";)
+
+[comment]: <> (import language_ger_img from "../../images/germanyflag.png";)
+
+[comment]: <> (import DropDownItem from "./DropDownItem/DropDownItem";)
+
+[comment]: <> (import "./DropDownMenu.css";)
+
+[comment]: <> (const DropDownMenu = &#40;&#41; => {)
+
+[comment]: <> (const [open, setOpen] = useState&#40;false&#41;;)
+
+[comment]: <> (return &#40;)
+
+[comment]: <> (<div className="dropdown__menu">)
+
+[comment]: <> (<DropDownItem setOpen={setOpen} icon={language_ua_img} />)
+
+[comment]: <> ({open && <DropDownItem setOpen={setOpen} icon={language_en_img} />})
+
+[comment]: <> (</div>)
+
+[comment]: <> (&#41;;)
+
+[comment]: <> (};)
+
+[comment]: <> (export default DropDownMenu;)
+
+
+
+[comment]: <> (DropDownItem:)
+
+[comment]: <> (import "./DropDownItem.css";)
+
+[comment]: <> (const DropDownItem = &#40;{ icon, setOpen }&#41; => {)
+
+[comment]: <> (return &#40;)
+
+[comment]: <> (<div className="dropdown__item">)
+
+[comment]: <> (<button onClick={&#40;&#41; => setOpen&#40;true&#41;} className="language__btn">)
+
+[comment]: <> (<img className="language__img" src={icon} alt="UA" />)
+
+[comment]: <> (</button>)
+
+[comment]: <> (</div>)
+
+[comment]: <> (&#41;;)
+
+[comment]: <> (};)
+
+[comment]: <> (export default DropDownItem;)
+
+
+
+
+[comment]: <> (CSS DROPDOWNITEM)
+
+[comment]: <> (.language__btn {)
+
+[comment]: <> (width: 48px;)
+
+[comment]: <> (height: 48px;)
+
+[comment]: <> (border: none;)
+
+[comment]: <> (border-radius: 50%;)
+
+[comment]: <> (background: var&#40;--silver&#41;;)
+
+[comment]: <> (transition: filter 300ms;)
+
+[comment]: <> (})
+
+[comment]: <> (.language__btn:hover {)
+
+[comment]: <> (filter: brightness&#40;0.9&#41;;)
+
+[comment]: <> (})
+
+[comment]: <> (.language__img {)
+
+[comment]: <> (width: 18px;)
+
+[comment]: <> (height: 18px;)
+
+[comment]: <> (})

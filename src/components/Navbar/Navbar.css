@@ -28,9 +28,8 @@
 
 .menu__list li.active {
     text-decoration: var(--blue);
-    content: "";
     color: var(--blue);
-    list-style: disc;
+    list-style: disc outside;
 }
 
 .menu__list li:hover {
@@ -45,12 +44,6 @@
 .menu__btn {
     border: none;
     background: var(--white);
-}
-
-.language__btn {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
 }
 
 .burger__menu {

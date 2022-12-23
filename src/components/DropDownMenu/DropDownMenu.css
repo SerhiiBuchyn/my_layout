@@ -1,0 +1,14 @@
+.language-switcher__wrapper .MuiSpeedDial-fab {
+    min-height: 48px;
+    width: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+/* material SpeedDial CCS class's for styling language dropdown menu */
+/*
+MuiButtonBase-root
+MuiButtonBase-root
+MuiFab-root
+MuiSpeedDial-fab
+*/
