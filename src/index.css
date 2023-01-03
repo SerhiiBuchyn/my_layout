@@ -42,6 +42,15 @@ img {
     vertical-align: top;
 }
 
+.margin-auto {
+    margin: 0;
+}
+
+.logo {
+    height: 22px;
+    width: 142px;
+}
+
 .d-flex {
     display: flex;
 }

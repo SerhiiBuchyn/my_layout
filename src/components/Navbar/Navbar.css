@@ -1,43 +1,43 @@
-.navbar__font__style {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: var(--black);
-}
-
 .navbar {
-    max-width: 100%;
-    justify-content: space-between;
+    max-width: 1440px;
 }
 
 .menu__wrapper {
     height: 80px;
     max-width: 100%;
+    justify-content: space-between;
+    margin: 0 150px;
 }
 
-.logo {
-    height: 22px;
-    width: 142px;
+.logo__wrapper {
+    margin: 0;
 }
 
 .menu__list {
     column-gap: 50px;
-    display: flex;
+    margin: 0;
 }
 
 .menu__list li.active {
     text-decoration: var(--blue);
-    color: var(--blue);
-    list-style: disc outside;
+    color: var(--blue) !important;
+    list-style: disc;
 }
 
 .menu__list li:hover {
-    text-decoration: var(--black);
+    color: var(--blue);
+}
+
+.nav__font__style {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.5;
 }
 
 .contact__arrow {
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 0;
 }
 

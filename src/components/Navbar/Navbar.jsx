@@ -21,22 +21,30 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="navbar navbar__font__style">
+		<nav className="navbar ">
 			<div className="menu__wrapper d-flex al-i-center">
-				<div className="logo">
+				<div className="logo__wrapper logo">
 					<img className="img" src={logo} alt="logo" />
 				</div>
-				<ul className="menu__list al-i-center ">
-					<CustomLink to={"/home"}>Home</CustomLink>
+				<ul className="menu__list d-flex al-i-center">
+					<CustomLink to={"/home"}>
+						<span className="nav__font__style">Home</span>
+					</CustomLink>
 
-					<CustomLink to={"/about"}>About</CustomLink>
+					<CustomLink to={"/about"}>
+						<span className="nav__font__style">About</span>
+					</CustomLink>
 
-					<CustomLink to={"/services"}>Services</CustomLink>
+					<CustomLink to={"/services"}>
+						<span className="nav__font__style">Services</span>
+					</CustomLink>
 
-					<CustomLink to={"/portfolio"}>Portfolio</CustomLink>
+					<CustomLink to={"/portfolio"}>
+						<span className="nav__font__style">Portfolio</span>
+					</CustomLink>
 
-					<CustomLink to={"/contact"} className="d-flex">
-						Contact us
+					<CustomLink to={"/contact"} className="d-flex al-i-center">
+						<span className="nav__font__style">Contact us</span>
 						<div className="contact__arrow">
 							<button className="menu__btn contact__arrow">
 								<FiArrowRight />
@@ -47,9 +55,9 @@ const Navbar = () => {
 				</ul>
 
 				<button className="burger__menu menu__btn">
-					<div className="burger__btn__element"> </div>
-					<div className="burger__btn__element"> </div>
-					<div className="burger__btn__element"> </div>
+					<div className="burger__btn__element"></div>
+					<div className="burger__btn__element"></div>
+					<div className="burger__btn__element"></div>
 				</button>
 			</div>
 		</nav>
