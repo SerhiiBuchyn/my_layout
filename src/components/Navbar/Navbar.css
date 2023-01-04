@@ -59,17 +59,24 @@
     opacity: 100%;
 }
 
+.menu__list li.active {
+    position: relative;
+}
+
 .menu__list li:hover {
     color: var(--blue);
 }
 
-.menu__list a.active::before {
-    content: "●";
-    width: 3px;
-    height: 3px;
+.menu__list li.active::before {
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    position: absolute;
+    content: "";
     border-radius: 50%;
-    color: var(--blue);
-    margin-right: 3px;
+    background: var(--blue);
+    top: 7px;
+    left: -6px;
 }
 
 .menu__navbar__btn {
