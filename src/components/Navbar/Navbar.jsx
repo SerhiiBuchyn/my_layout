@@ -40,6 +40,7 @@ const Navbar = () => {
 					<CustomLink to={"/contact"} className="d-flex">
 						Contact us ➜
 					</CustomLink>
+
 					<DropDownMenu />
 				</ul>
 
