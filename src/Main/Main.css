@@ -36,13 +36,6 @@
         column-gap: 30px;
     }
 
-    /*.nav__font__style a {*/
-    /*    font-style: normal;*/
-    /*    font-weight: 450;*/
-    /*    font-size: 14px;*/
-    /*    line-height: 17px;*/
-    /*}*/
-
     .menu__btn {
         display: none;
     }
@@ -56,13 +49,6 @@
     .menu__list {
         column-gap: 30px;
     }
-
-    /*.nav__font__style a {*/
-    /*    font-style: normal;*/
-    /*    font-weight: 400;*/
-    /*    font-size: 13px;*/
-    /*    line-height: 15px;*/
-    /*}*/
 }
 
 @media screen and (max-width: 654px) {
