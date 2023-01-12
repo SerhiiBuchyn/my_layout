@@ -56,6 +56,7 @@
 
 .vector {
     position: absolute;
+    right: -246px;
     bottom: 100px;
     width: 252px;
     height: 31px;
