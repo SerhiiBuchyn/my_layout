@@ -58,3 +58,7 @@ img {
 .al-i-center {
     align-items: center;
 }
+
+.jst-cont-sp-btw {
+    justify-content: space-between;
+}
