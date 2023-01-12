@@ -72,6 +72,27 @@
 }
 
 @media screen and (max-width: 810px) {
+
+    /*FOOTER-TITLE-FONT*/
+    .footer__title__font {
+        max-width: 450px;
+        max-height: 116px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 151.5%;
+    }
+
+    .footer__description__font {
+        max-width: 400px;
+        max-height: 45px;
+        font-style: normal;
+        font-weight: 430;
+        font-size: 14px;
+        line-height: 151.5%;
+    }
+
+    /*FOOTER-MENU-FONT*/
     .footer__font__style a {
         font-style: normal;
         font-weight: 450;
@@ -81,6 +102,25 @@
 }
 
 @media screen and (max-width: 756px) {
+
+    /*FOOTER-TITLE-FONT*/
+    .footer__title__font {
+        max-width: 350px;
+        max-height: 116px;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 32px;
+    }
+
+    .footer__description__font {
+        max-width: 300px;
+        max-height: 45px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    /*FOOTER-MENU-FONT*/
     .footer__font__style a {
         font-style: normal;
         font-weight: 400;
@@ -90,6 +130,8 @@
 }
 
 @media screen and (max-width: 679px) {
+
+    /*FOOTER-MENU-FONT*/
     .footer__font__style a {
         font-style: normal;
         font-weight: 370;
@@ -98,18 +140,31 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+
+    /*FOOTER-TITLE-FONT*/
+    .footer__title__font {
+        max-width: 330px;
+        max-height: 116px;
+        font-style: normal;
+        font-size: 24px;
+        margin: 0 0 35px 0;
+    }
+}
+
 .footer__contact li.active a {
     color: var(--blue);
     opacity: 100%;
 }
 
-.footer__contact li:hover {
+.footer__contact li.a:hover {
     color: var(--blue);
 }
 
 .footer__menu__container {
     padding: 50px 0 50px 0;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--white);
+    opacity: 0.5;
 }
 
 .footer__menu__list {
