@@ -1,11 +1,10 @@
 .navbar {
-    max-width: 1440px;
+    max-width: 100%;
 }
 
 .menu__wrapper {
     height: 80px;
     max-width: 100%;
-    justify-content: space-between;
     margin: 0 150px;
 }
 
