@@ -1,16 +1,25 @@
 @media screen and (max-width: 1275px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         margin: 0 110px;
     }
 }
 
 @media screen and (max-width: 1030px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         margin: 0 70px;
     }
 }
 
 @media screen and (max-width: 940px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         margin: 0 40px;
         column-gap: 35px;
@@ -19,9 +28,18 @@
     .contact__arrow {
         margin-left: 3px;
     }
+
+    /*FOOTER*/
+
+    .footer__menu__container {
+        column-gap: 35px;
+    }
 }
 
 @media screen and (max-width: 880px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         margin: 0 30px;
     }
@@ -32,6 +50,9 @@
 }
 
 @media screen and (max-width: 810px) {
+
+    /*NAVBAR*/
+
     .menu__list {
         column-gap: 30px;
     }
@@ -42,6 +63,9 @@
 }
 
 @media screen and (max-width: 756px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         margin: 0 20px;
     }
@@ -52,6 +76,9 @@
 }
 
 @media screen and (max-width: 654px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         margin: 0 15px;
     }
@@ -62,6 +89,9 @@
 }
 
 @media screen and (max-width: 642px) {
+
+    /*NAVBAR*/
+
     .menu__wrapper {
         justify-content: space-between;
         padding: 0 30px;
@@ -90,8 +120,20 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+
+    /*FOOTER*/
+
+    .footer__menu__container {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 325px) {
-    .menu__wrapper {
+
+    /*FOOTER*/
+
+    .footer__menu__container {
         padding: 0 20px;
     }
 }

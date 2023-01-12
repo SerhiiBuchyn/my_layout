@@ -6,7 +6,8 @@
     --blue: #0D51FF;
     --black: #000000;
     --dark-grey: #2E293B;
-    --silver: #DBDBDB 20%;
+    --silver: #9B98A1;
+    --aqua: #14E0B8;
 }
 
 * {
@@ -57,4 +58,8 @@ img {
 
 .al-i-center {
     align-items: center;
+}
+
+.jst-cont-sp-btw {
+    justify-content: space-between;
 }

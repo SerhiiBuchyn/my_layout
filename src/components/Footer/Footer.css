@@ -1,0 +1,131 @@
+.footer {
+    background: var(--dark-grey);
+    max-width: 100%;
+}
+
+.footer__wrapper {
+    margin: 0 150px;
+}
+
+.footer__container {
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer__description__container {
+    padding-top: 50px;
+}
+
+.footer__title__font {
+    max-width: 510px;
+    max-height: 116px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 161.5%;
+    color: var(--white);
+    margin: 0 0 50px 0;
+}
+
+.footer__description__font {
+    max-width: 521px;
+    max-height: 58px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 161.5%;
+    color: var(--silver);
+}
+
+.footer__right__container {
+    align-items: flex-end;
+}
+
+.footer__absolute__bg__container {
+    position: relative;
+}
+
+.ellipse {
+    position: absolute;
+    right: -120px;
+    bottom: 189px;
+    width: 28px;
+    height: 28px;
+    background-image: url("../../images/Ellipse 2.png");
+}
+
+.vector {
+    position: absolute;
+    bottom: 100px;
+    width: 252px;
+    height: 31px;
+    background-image: url("../../images/Vector.png");
+}
+
+.footer__font__style a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+}
+
+@media screen and (max-width: 810px) {
+    .footer__font__style a {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .footer__font__style a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .footer__font__style a {
+        font-style: normal;
+        font-weight: 370;
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
+.footer__contact li.active a {
+    color: var(--blue);
+    opacity: 100%;
+}
+
+.footer__contact li:hover {
+    color: var(--blue);
+}
+
+.footer__menu__container {
+    padding: 50px 0 50px 0;
+    border-top: 1px solid white;
+}
+
+.footer__menu__list {
+    column-gap: 50px;
+    margin: 0;
+}
+
+.footer__menu__list li.active a {
+    color: var(--blue);
+    opacity: 100%;
+}
+
+.footer__menu__list li:hover {
+    color: var(--blue);
+}
+
+.footer__btn {
+    border: none;
+    background: var(--dark-grey);
+}
