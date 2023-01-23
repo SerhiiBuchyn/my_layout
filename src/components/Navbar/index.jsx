@@ -21,7 +21,7 @@ const CustomLink = ({ to, children, ...props }) => {
 const Navbar = () => {
 	return (
 		<nav className="navbar ">
-			<div className="menu__wrapper d-flex al-i-center">
+			<div className="menu__wrapper d-flex al-i-center jst-cont-sp-btw">
 				<button
 					className="logo__wrapper logo menu__navbar__btn"
 					onClick={() => <Link to={"/home"} />}>
