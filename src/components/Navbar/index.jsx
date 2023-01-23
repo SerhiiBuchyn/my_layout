@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useMatch, useResolvedPath } from "react-router";
 
 import logo from "../../images/logo.png";
-import DropDownMenu from "../DropDownMenu/DropDownMenu";
+import { DropDownMenu } from "../index";
 
 import "./Navbar.css";
 

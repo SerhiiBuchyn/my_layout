@@ -1,7 +1,6 @@
 import React from "react";
 
-import Navbar from "../components/Navbar/Navbar";
-import Router from "../components/Routes/Router";
+import { Navbar, Router } from "../components";
 
 import "./Main.css";
 

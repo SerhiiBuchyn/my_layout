@@ -1,8 +1,5 @@
 import React from "react";
-import Hero from "./Componets/Hero/Hero";
-import AboutUs from "./Componets/AboutUs/AboutUs";
-import Dashboard from "./Componets/Dashboard/Dashboard";
-import OurServices from "./Componets/OurServices/OurServices";
+import { Hero, AboutUs, OurServices, OurCustomers, Dashboard } from "./Componets";
 
 import "./HomePage.css";
 
@@ -12,6 +9,7 @@ const HomePage = () => {
 			<Hero />
 			<AboutUs />
 			<OurServices />
+			<OurCustomers />
 			<Dashboard />
 		</div>
 	);

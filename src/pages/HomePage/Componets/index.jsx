@@ -1,11 +1,5 @@
-export * from "./Hero/Hero";
-export * from "./AboutUs/AboutUs";
-export * from "./Dashboard/Dashboard";
-export * from "./OurServices/OurServices";
-export * from "./OurCustomers/index";
-
-export * from "./Hero/Hero.css";
-export * from "./AboutUs/AboutUs.css";
-export * from "./Dashboard/Dashboard.css";
-export * from "./OurServices/OurServices.css";
-export * from "./OurCustomers/OurCustomers.css";
+export { default as Hero } from "./Hero";
+export { default as AboutUs } from "./AboutUs";
+export { default as Dashboard } from "./Dashboard";
+export { default as OurServices } from "./OurServices";
+export { default as OurCustomers } from "./OurCustomers";
