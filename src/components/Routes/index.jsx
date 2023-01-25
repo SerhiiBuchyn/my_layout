@@ -1,13 +1,15 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 
-import HomePage from "../../pages/HomePage/HomePage";
-import AboutPage from "../../pages/AboutPage/AboutPage";
-import ServicesPage from "../../pages/ServicesPage/ServicesPage";
-import PortfolioPage from "../../pages/PortfolioPage/PortfolioPage";
-import ContactPage from "../../pages/ContactPage/ContactPage";
+import {
+	HomePage,
+	AboutPage,
+	ServicesPage,
+	PortfolioPage,
+	ContactPage
+} from "../../pages";
 
-const Router = () => {
+const Index = () => {
 	return (
 		<div>
 			<Routes>
@@ -22,4 +24,4 @@ const Router = () => {
 	);
 };
 
-export default Router;
+export default Index;

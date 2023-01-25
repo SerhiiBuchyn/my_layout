@@ -65,7 +65,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-[comment]: <> (DropDownMenu:)
+[comment]: <> (Index:)
 
 [comment]: <> (import { useState } from "react";)
 
@@ -77,9 +77,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 [comment]: <> (import DropDownItem from "./DropDownItem/DropDownItem";)
 
-[comment]: <> (import "./DropDownMenu.css";)
+[comment]: <> (import "./Index.css";)
 
-[comment]: <> (const DropDownMenu = &#40;&#41; => {)
+[comment]: <> (const Index = &#40;&#41; => {)
 
 [comment]: <> (const [open, setOpen] = useState&#40;false&#41;;)
 
@@ -97,7 +97,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 [comment]: <> (};)
 
-[comment]: <> (export default DropDownMenu;)
+[comment]: <> (export default Index;)
 
 
 
