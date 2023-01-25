@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Router } from "../components";
+import { Router, Navbar } from "../components";
 
 import "./Main.css";
 
