@@ -20,8 +20,58 @@ body {
     width: 100%;
     line-height: 1;
     font-family: 'Bw Modelica SS01', sans-serif;
+    font-style: normal;
     background-color: var(--white);
 }
+
+/* title font-style */
+
+h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+/* hero board title - h1 */
+
+h2 {
+    font-size: 36px;
+    line-height: 58px;
+}
+
+/* general title font - h2 */
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* description title and also hero description font - h3 - h4 */
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* description container title font - h5 */
+
+h6 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* general menu list and footer list font - h6 */
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* general description font - p */
 
 li {
     list-style: none;
@@ -49,16 +99,4 @@ img {
 .logo {
     height: 22px;
     width: 142px;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.al-i-center {
-    align-items: center;
-}
-
-.jst-cont-sp-btw {
-    justify-content: space-between;
 }
