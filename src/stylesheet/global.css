@@ -7,24 +7,60 @@
     --black: #000000;
     --dark-grey: #2E293B;
     --silver: #DBDBDB 20%;
+    --orange: #E87F05;
+}
+
+#root, #__next {
+    isolation: isolate;
 }
 
 * {
+    line-height: calc(1em + 0.5rem);
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
-body {
+html, body, #__next {
     height: 100%;
-    width: 100%;
-    line-height: 1;
     font-family: 'Bw Modelica SS01', sans-serif;
     font-style: normal;
     background-color: var(--white);
+    -webkit-font-smoothing: antialiased;
 }
 
-/* title font-style */
+.container {
+    max-width: 1440px;
+}
+
+/* font-style */
+.text-white {
+    color: var(--white);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.text-dark-grey {
+    color: var(--dark-grey)
+}
+
+.text-black {
+    color: var(--black);
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
 
 h1 {
     font-size: 48px;
@@ -82,14 +118,17 @@ a {
     text-decoration: none;
 }
 
+input, button, textarea, select {
+    font: inherit;
+}
+
 button {
     cursor: pointer;
 }
 
-img {
+img, picture, video, canvas, svg {
+    display: block;
     max-width: 100%;
-    max-height: 100%;
-    vertical-align: top;
 }
 
 .margin-auto {
