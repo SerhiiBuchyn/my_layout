@@ -1,0 +1,38 @@
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+
+.hero__left__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title__container {
+    margin-bottom: 44px;
+}
+
+.hero__title {
+    max-width: 530px;
+}
+
+.hero__bg__title {
+    background: var(--dark-grey);
+    padding: 0 5px;
+}
+
+.hero__description {
+    max-width: 460px;
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.6;
+}
+
+.hero__right__container {
+    max-width: 639px;
+}
+
+.hero__bg__img {
+    width: 100%;
+}
