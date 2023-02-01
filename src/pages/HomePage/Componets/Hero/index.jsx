@@ -1,12 +1,17 @@
 import React from "react";
 
-import logo from "../../../../images/logo big.png";
-import "./Hero.css";
 import { CustomLink } from "../../../../components";
+import logo from "../../../../images/logo big.png";
+import mobileBigLogo from "../../../../images/mobileBigLogo.png";
+
+import "./Hero.css";
 
 const Hero = () => {
 	return (
 		<div className="hero__wrapper">
+			<div className="hero__mobile__logo">
+				<img className="hero__mobile-logo__img" src={mobileBigLogo} alt="mobile-logo" />
+			</div>
 			<div className="hero__left__container">
 				<div className="hero__title__container">
 					<h1 className="hero__title">
@@ -21,7 +26,9 @@ const Hero = () => {
 					digitalipersonalizzate per le esigenze della tua azienda.
 				</p>
 
-				<CustomLink to={"/contact"}>Get started ➜</CustomLink>
+				<CustomLink to={"/contact"}>
+					Get started <span className="arrow">➜</span>
+				</CustomLink>
 			</div>
 
 			<div className="hero__right__container">

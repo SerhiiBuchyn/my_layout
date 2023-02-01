@@ -1,7 +1,15 @@
 .hero__wrapper {
     display: flex;
     justify-content: space-between;
-    margin-left: 170px;
+    margin: 150px 0 207px 170px;
+}
+
+.hero__mobile__logo {
+    display: none;
+}
+
+.hero__mobile-logo__img {
+    width: 100%;
 }
 
 .hero__left__container {
@@ -28,6 +36,10 @@
     line-height: 27px;
     opacity: 0.6;
     margin-bottom: 70px;
+}
+
+.arrow {
+    color: var(--blue);
 }
 
 .hero__right__container {
