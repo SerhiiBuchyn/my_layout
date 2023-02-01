@@ -1,11 +1,14 @@
 .navbar {
-    max-width: 100%;
+    margin-bottom: 150px;
 }
 
 .menu__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 80px;
     max-width: 100%;
-    margin: 0 150px;
+
 }
 
 .logo__wrapper {
@@ -14,41 +17,21 @@
 
 .nav__font__style a {
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: var(--black);
     opacity: 50%;
 }
 
 @media screen and (max-width: 810px) {
     .nav__font__style a {
-        font-style: normal;
-        font-weight: 450;
         font-size: 14px;
         line-height: 17px;
     }
 }
 
-@media screen and (max-width: 756px) {
-    .nav__font__style a {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15px;
-    }
-}
-
-@media screen and (max-width: 679px) {
-    .nav__font__style a {
-        font-style: normal;
-        font-weight: 370;
-        font-size: 11px;
-        line-height: 13px;
-    }
-}
-
 .menu__list {
+    display: flex;
+    align-items: center;
     column-gap: 50px;
     margin: 0;
 }

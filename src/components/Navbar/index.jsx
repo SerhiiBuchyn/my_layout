@@ -18,17 +18,17 @@ const CustomLink = ({ to, children, ...props }) => {
 	);
 };
 
-const Navbar = () => {
+const Index = () => {
 	return (
-		<nav className="navbar ">
-			<div className="menu__wrapper d-flex al-i-center jst-cont-sp-btw">
+		<nav className="navbar container">
+			<div className="menu__wrapper">
 				<button
 					className="logo__wrapper logo menu__navbar__btn"
 					onClick={() => <Link to={"/home"} />}>
 					<img className="img" src={logo} alt="logo" />
 				</button>
 
-				<ul className="menu__list d-flex al-i-center nav__font__style">
+				<ul className="menu__list nav__font__style text-black">
 					<CustomLink to={"/home"}>Home</CustomLink>
 
 					<CustomLink to={"/about"}>About</CustomLink>
@@ -37,9 +37,7 @@ const Navbar = () => {
 
 					<CustomLink to={"/portfolio"}>Portfolio</CustomLink>
 
-					<CustomLink to={"/contact"} className="d-flex">
-						Contact us ➜
-					</CustomLink>
+					<CustomLink to={"/contact"}>Contact us ➜</CustomLink>
 
 					<DropDownMenu />
 				</ul>
@@ -54,4 +52,4 @@ const Navbar = () => {
 	);
 };
 
-export default Navbar;
+export default Index;
