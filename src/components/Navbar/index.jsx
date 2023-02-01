@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useMatch, useResolvedPath } from "react-router";
 
 import logo from "../../images/logo.png";
-import DropDownMenu from "../DropDownMenu/DropDownMenu";
+import { DropDownMenu } from "../index";
 
 import "./Navbar.css";
 
@@ -18,7 +18,7 @@ const CustomLink = ({ to, children, ...props }) => {
 	);
 };
 
-const Index = () => {
+const Navbar = () => {
 	return (
 		<nav className="navbar container">
 			<div className="menu__wrapper">
@@ -29,6 +29,7 @@ const Index = () => {
 				</button>
 
 				<ul className="menu__list nav__font__style text-black">
+
 					<CustomLink to={"/home"}>Home</CustomLink>
 
 					<CustomLink to={"/about"}>About</CustomLink>
@@ -52,4 +53,5 @@ const Index = () => {
 	);
 };
 
-export default Index;
+
+export default Navbar;

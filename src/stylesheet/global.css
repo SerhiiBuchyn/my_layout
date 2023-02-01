@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+    --white: #ffffffff;
+    --grey: #585462;
+    --blue: #0D51FF;
+    --black: #000000;
+    --dark-grey: #2E293B;
+    --silver: #DBDBDB 20%;
+    --orange: #E87F05;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+
+* {
+    line-height: calc(1em + 0.5rem);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #__next {
+    height: 100%;
+    font-family: 'Bw Modelica SS01', sans-serif;
+    font-style: normal;
+    background-color: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+/* font-style */
+.text-white {
+    color: var(--white);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.text-dark-grey {
+    color: var(--dark-grey)
+}
+
+.text-black {
+    color: var(--black);
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+/* hero board title - h1 */
+
+h2 {
+    font-size: 36px;
+    line-height: 58px;
+}
+
+/* general title font - h2 */
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* description title and also hero description font - h3 - h4 */
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* description container title font - h5 */
+
+h6 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* general menu list and footer list font - h6 */
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* general description font - p */
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+.margin-auto {
+    margin: 0;
+}
+
+.logo {
+    height: 22px;
+    width: 142px;
+}

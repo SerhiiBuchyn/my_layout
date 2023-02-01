@@ -1,14 +1,13 @@
 import React from "react";
 
-import Index from "../components/Navbar";
-import Router from "../components/Routes/Router";
+import { Router, Navbar } from "../components";
 
 import "./Main.css";
 
 const Main = () => {
 	return (
 		<div className="main_page">
-			<Index />
+			<Navbar />
 			<Router />
 		</div>
 	);

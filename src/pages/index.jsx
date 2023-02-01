@@ -1,8 +1,5 @@
-export * from "./HomePage/HomePage";
-export * from "./AboutPage/AboutPage";
-export * from "./ContactPage/ContactPage";
-export * from "./PortfolioPage/PortfolioPage";
-export * from "./ServicesPage/ServicesPage";
-export * from "../Main/Main";
-
-export * from "../Main/Main.css";
+export { default as HomePage } from "./HomePage";
+export { default as AboutPage } from "./AboutPage";
+export { default as ContactPage } from "./ContactPage";
+export { default as PortfolioPage } from "./PortfolioPage";
+export { default as ServicesPage } from "./ServicesPage";
