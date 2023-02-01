@@ -29,7 +29,6 @@ const Navbar = () => {
 				</button>
 
 				<ul className="menu__list nav__font__style text-black">
-
 					<CustomLink to={"/home"}>Home</CustomLink>
 
 					<CustomLink to={"/about"}>About</CustomLink>
@@ -52,6 +51,5 @@ const Navbar = () => {
 		</nav>
 	);
 };
-
 
 export default Navbar;
