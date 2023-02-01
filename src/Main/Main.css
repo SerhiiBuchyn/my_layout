@@ -1,33 +1,16 @@
-@media screen and (max-width: 1275px) {
-    .menu__wrapper {
-        margin: 0 110px;
-    }
-}
-
-@media screen and (max-width: 1030px) {
-    .menu__wrapper {
-        margin: 0 70px;
-    }
-}
-
 @media screen and (max-width: 940px) {
     .menu__wrapper {
-        margin: 0 40px;
-        column-gap: 35px;
+        column-gap: 40px;
     }
 
     .contact__arrow {
-        margin-left: 3px;
+        margin-left: 2px;
     }
 }
 
 @media screen and (max-width: 880px) {
-    .menu__wrapper {
-        margin: 0 30px;
-    }
-
     .menu__list {
-        column-gap: 30px;
+        column-gap: 35px;
     }
 }
 
@@ -42,20 +25,12 @@
 }
 
 @media screen and (max-width: 756px) {
-    .menu__wrapper {
-        margin: 0 20px;
-    }
-
     .menu__list {
-        column-gap: 30px;
+        column-gap: 25px;
     }
 }
 
 @media screen and (max-width: 654px) {
-    .menu__wrapper {
-        margin: 0 15px;
-    }
-
     .menu__list {
         column-gap: 23px;
     }
@@ -63,8 +38,7 @@
 
 @media screen and (max-width: 642px) {
     .menu__wrapper {
-        justify-content: space-between;
-        padding: 0 30px;
+        justify-content: space-around;
     }
 
     .logo {
@@ -92,6 +66,6 @@
 
 @media screen and (max-width: 325px) {
     .menu__wrapper {
-        padding: 0 20px;
+        margin: 0 20px;
     }
 }
