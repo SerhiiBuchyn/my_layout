@@ -2,6 +2,7 @@ import React from "react";
 
 import logo from "../../../../images/logo big.png";
 import "./Hero.css";
+import { CustomLink } from "../../../../components";
 
 const Hero = () => {
 	return (
@@ -19,6 +20,8 @@ const Hero = () => {
 					Competenza, innovazione e creatività: ideiamo nuove esperienze
 					digitalipersonalizzate per le esigenze della tua azienda.
 				</p>
+
+				<CustomLink to={"/contact"}>Get started ➜</CustomLink>
 			</div>
 
 			<div className="hero__right__container">
