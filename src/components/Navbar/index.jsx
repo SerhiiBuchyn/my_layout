@@ -24,7 +24,9 @@ const Navbar = () => {
 
 					<CustomLink to={"/portfolio"}>Portfolio</CustomLink>
 
-					<CustomLink to={"/contact"}>Contact us ➜</CustomLink>
+					<CustomLink to={"/contact"}>
+						Contact us <span className="nav-arrow">➜</span>
+					</CustomLink>
 
 					<DropDownMenu />
 				</ul>

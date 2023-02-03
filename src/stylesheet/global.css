@@ -30,8 +30,21 @@ html, body, #__next {
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1110px;
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
 }
 
 /* font-style */

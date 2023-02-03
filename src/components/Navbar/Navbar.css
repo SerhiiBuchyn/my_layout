@@ -1,13 +1,13 @@
 .navbar {
-    margin-bottom: 150px;
+    margin: 0 auto;
 }
 
 .menu__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
-    max-width: 100%;
+    width: 100%;
 }
 
 .logo__wrapper {
@@ -20,13 +20,6 @@
     line-height: 19px;
     opacity: 50%;
     color: var(--black);
-}
-
-@media screen and (max-width: 810px) {
-    .nav__font__style a {
-        font-size: 14px;
-        line-height: 17px;
-    }
 }
 
 .menu__list {
@@ -76,4 +69,84 @@
     background-color: var(--dark-grey);
     margin-bottom: 9px;
     border-radius: 6px;
+}
+
+@media screen and (max-width: 940px) {
+    .menu__wrapper {
+        column-gap: 40px;
+    }
+
+    .contact__arrow {
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .menu__list {
+        column-gap: 35px;
+    }
+
+    .nav-arrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .menu__list {
+        column-gap: 30px;
+    }
+
+    .menu__btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .menu__list {
+        column-gap: 23px;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    .menu__list {
+        column-gap: 17px;
+    }
+}
+
+@media screen and (max-width: 663px) {
+    .menu__wrapper {
+        justify-content: space-around;
+    }
+
+    .menu__list li.active::before {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .menu__list a {
+        display: none;
+    }
+
+    .menu__list li.active {
+        display: none;
+    }
+
+    .language-switcher__wrapper {
+        display: none;
+    }
+
+    .burger__menu {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .menu__wrapper {
+        margin: 0 20px;
+    }
 }

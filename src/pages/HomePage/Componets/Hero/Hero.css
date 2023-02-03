@@ -1,33 +1,33 @@
+.hero {
+    margin: 0 auto;
+}
+
 .hero__wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 150px 0 207px 170px;
+    overflow: hidden;
+    width: 100%;
+    margin: 150px 0 207px 0;
 }
 
 .hero__mobile__logo {
+    max-width: 420px;
     display: none;
 }
 
-.hero__mobile-logo__img {
+.hero__img {
     width: 100%;
 }
 
 .hero__left__container {
     display: flex;
     flex-direction: column;
+    margin-right: 51px;
 }
 
 .hero__title__container {
+    max-width: 585px;
     margin-bottom: 44px;
-}
-
-.hero__title {
-    max-width: 530px;
-}
-
-.hero__bg__title {
-    background: var(--dark-grey);
-    padding: 0 5px;
 }
 
 .hero__description {
@@ -38,14 +38,109 @@
     margin-bottom: 70px;
 }
 
-.arrow {
+.blue-arrow {
     color: var(--blue);
 }
 
 .hero__right__container {
-    max-width: 639px;
+    position: relative;
+    width: 830px;
 }
 
 .hero__bg__img {
+    position: absolute;
     width: 100%;
+    right: -130px;
+    top: -32px;
+}
+
+@media screen and (max-width: 1070px) {
+    .hero__bg__img {
+        top: -27px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .hero__left__container {
+        margin-right: 0;
+    }
+
+    .hero__bg__img {
+        right: -110px;
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .hero__wrapper {
+        margin: 70px 0 75px 0;
+    }
+
+    .hero__description {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .hero__wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 60px auto 50px auto;
+    }
+
+    .hero__mobile__logo {
+        display: flex;
+        max-width: 300px;
+        margin-bottom: 60px;
+    }
+
+    .hero__left__container {
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .hero__right__container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 642px) {
+    .hero__description {
+        max-width: 340px;
+    }
+
+    .hero__left__container {
+        margin: 0 0 16px 0;
+        align-items: center;
+    }
+
+    .hero__title__container {
+        max-width: 340px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero__mobile__logo {
+        max-width: 135px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .hero__wrapper {
+        margin: 30px auto 50px auto;
+    }
+
+    .hero__mobile__logo {
+        max-width: 85px;
+        margin-bottom: 25px;
+    }
+
+    .hero__description {
+        max-width: 340px;
+        margin-bottom: 50px;
+    }
 }
