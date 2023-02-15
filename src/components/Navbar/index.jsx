@@ -1,22 +1,9 @@
 import { Link } from "react-router-dom";
-import { useMatch, useResolvedPath } from "react-router";
 
 import logo from "../../images/logo.png";
-import { DropDownMenu } from "../index";
+import { DropDownMenu, CustomLink } from "../index";
 
 import "./Navbar.css";
-
-const CustomLink = ({ to, children, ...props }) => {
-	const resolvedPath = useResolvedPath(to);
-	const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-	return (
-		<li className={isActive ? "active" : ""}>
-			<Link to={to} {...props} className={`${isActive ? "active" : ""} "active__link"`}>
-				{children}
-			</Link>
-		</li>
-	);
-};
 
 const Navbar = () => {
 	return (
@@ -37,7 +24,9 @@ const Navbar = () => {
 
 					<CustomLink to={"/portfolio"}>Portfolio</CustomLink>
 
-					<CustomLink to={"/contact"}>Contact us ➜</CustomLink>
+					<CustomLink to={"/contact"}>
+						Contact us <span className="nav-arrow">➜</span>
+					</CustomLink>
 
 					<DropDownMenu />
 				</ul>
