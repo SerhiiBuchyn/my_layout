@@ -2,10 +2,12 @@
 
 :root {
     --white: #ffffffff;
+    --light-silver: #F5F5F5;
     --grey: #585462;
     --blue: #0D51FF;
     --black: #000000;
     --dark-grey: #2E293B;
+    --light-grey: #9B98A1;
     --silver: #DBDBDB 20%;
     --orange: #E87F05;
 }
@@ -40,7 +42,7 @@ html, body, #__next {
     }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1050px) {
     .container {
         max-width: 100%;
         padding: 0 15px;
@@ -58,6 +60,10 @@ html, body, #__next {
 
 .text-orange {
     color: var(--orange);
+}
+
+.text-light-grey {
+    color: var(--light-grey)
 }
 
 .text-dark-grey {
