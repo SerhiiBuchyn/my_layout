@@ -10,6 +10,8 @@
     --light-grey: #9B98A1;
     --silver: #DBDBDB 20%;
     --orange: #E87F05;
+    --aqua: #11E1B8;
+    --transform-aqua: #70D9DF;
 }
 
 #root, #__next {
@@ -38,14 +40,16 @@ html, body, #__next {
 @media screen and (max-width: 1150px) {
     .container {
         max-width: 100%;
-        padding: 0 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
 @media screen and (max-width: 1050px) {
     .container {
         max-width: 100%;
-        padding: 0 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
