@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-
 import { OurServicesListItem } from "../../index";
 
 const OurServicesList = () => {
@@ -41,12 +39,9 @@ const OurServicesList = () => {
 		}
 	];
 
-	const [servicesList, setServicesList] = useState([]);
-	useEffect(() => setServicesList(list), [list.id]);
-
 	return (
 		<div className="our-services__list">
-			{servicesList.map((serviceItem) => (
+			{list.map((serviceItem) => (
 				<OurServicesListItem key={serviceItem.id} serviceItem={serviceItem} />
 			))}
 		</div>
