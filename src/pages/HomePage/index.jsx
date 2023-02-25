@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, AboutUs, OurServices, OurCustomers, Dashboard } from "./Componets";
+import { Hero, AboutUs, OurServices, OurCustomers, WorkExamples } from "./Componets";
 
 import "./HomePage.css";
 
@@ -9,8 +9,8 @@ const HomePage = () => {
 			<Hero />
 			<AboutUs />
 			<OurServices />
+			<WorkExamples />
 			<OurCustomers />
-			<Dashboard />
 		</div>
 	);
 };
