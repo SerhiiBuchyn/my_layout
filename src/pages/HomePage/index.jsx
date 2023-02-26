@@ -1,6 +1,6 @@
 import React from "react";
-import { Hero, AboutUs, OurServices, OurCustomers, Dashboard } from "./Componets";
-
+import { Hero, AboutUs, OurServices, WorkExamples, WhyUsSection } from "./Componets";
+import { OurCustomers } from "./Componets";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -9,8 +9,9 @@ const HomePage = () => {
 			<Hero />
 			<AboutUs />
 			<OurServices />
+			<WorkExamples />
+			<WhyUsSection />
 			<OurCustomers />
-			<Dashboard />
 		</div>
 	);
 };
