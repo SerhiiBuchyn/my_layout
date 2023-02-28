@@ -1,0 +1,9 @@
+.work-examples {
+    margin: 0 auto 111px;
+}
+
+@media screen and (max-width: 600px) {
+    .work-examples {
+        margin-bottom: 50px;
+    }
+}
