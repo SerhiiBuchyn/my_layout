@@ -1,0 +1,14 @@
+.customers-logo__list {
+    display: flex;
+    column-gap: 11px;
+}
+
+@media screen and (max-width: 680px){
+    .customers-logo__list {
+        max-width: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 16px;
+    }
+}

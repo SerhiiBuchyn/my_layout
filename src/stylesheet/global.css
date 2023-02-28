@@ -70,6 +70,10 @@ html, body, #__next {
     color: var(--light-grey)
 }
 
+.text-grey {
+    color: var(--grey)
+}
+
 .text-dark-grey {
     color: var(--dark-grey)
 }
@@ -77,6 +81,18 @@ html, body, #__next {
 .text-black {
     color: var(--black);
 }
+
+/* Arrow link style classes */
+
+.blue-arrow {
+    color: var(--blue);
+}
+
+.aqua-arrow {
+    color: var(--transform-aqua);
+}
+
+/* Arrow link style classes */
 
 input, button, textarea, select {
     font: inherit;

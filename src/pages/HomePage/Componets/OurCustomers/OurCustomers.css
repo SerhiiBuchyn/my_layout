@@ -1,0 +1,91 @@
+.our-customers {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 131px;
+}
+
+.our-customers__left__container {
+    display: flex;
+    column-gap: 58px;
+}
+
+.completed__projects {
+    font-size: 96px;
+    line-height: 115px;
+    margin-bottom: 35px;
+}
+
+.our-customers__description {
+    line-height: 19px;
+}
+
+.feedback__rating {
+    font-size: 96px;
+    line-height: 115px;
+    margin-bottom: 35px;
+}
+
+.our-customers__title {
+    max-width: 418px;
+    line-height: 29px;
+    margin-bottom: 37px;
+}
+
+@media screen and (max-width: 1070px) {
+    .our-customers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .our-customers__left__container {
+        margin-bottom: 50px;
+    }
+
+    .completed__projects {
+        margin-bottom: 15px;
+    }
+
+    .feedback__rating {
+        margin-bottom: 15px;
+    }
+
+    .our-customers__right__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-customers__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .our-customers__title {
+        max-width: 340px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .our-customers__left__container {
+        flex-direction: column;
+    }
+
+    .completed__projects {
+        font-size: 64px;
+        line-height: 77px;
+    }
+
+    .feedback__rating {
+        font-size: 64px;
+        line-height: 77px;
+    }
+
+    .our-customers__completed-projects {
+        margin-bottom: 70px;
+    }
+}

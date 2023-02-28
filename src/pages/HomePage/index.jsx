@@ -1,5 +1,7 @@
 import React from "react";
-import { Hero, AboutUs, OurServices, OurCustomers, WorkExamples } from "./Componets";
+
+import { Hero, AboutUs, OurServices, WorkExamples, WhyUsSection } from "./Componets";
+import { OurCustomers } from "./Componets";
 
 import "./HomePage.css";
 
@@ -10,6 +12,7 @@ const HomePage = () => {
 			<AboutUs />
 			<OurServices />
 			<WorkExamples />
+			<WhyUsSection />
 			<OurCustomers />
 		</div>
 	);
