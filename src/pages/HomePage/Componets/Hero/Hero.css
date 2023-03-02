@@ -1,5 +1,5 @@
 .hero {
-    margin: 0 auto;
+    margin: 150px 0 207px 0;
 }
 
 .hero__wrapper {
@@ -7,7 +7,7 @@
     justify-content: space-between;
     overflow: hidden;
     width: 100%;
-    margin: 150px 0 207px 0;
+    margin: 0 auto;
 }
 
 .hero__mobile__logo {
@@ -52,6 +52,21 @@
     width: 100%;
     right: -130px;
     top: -32px;
+}
+
+@media screen and (min-width: 1600px) {
+    .hero__wrapper {
+        overflow: visible;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .hero__bg__img {
+        position: absolute;
+        width: 100%;
+        right: -95px;
+        top: -5px;
+    }
 }
 
 @media screen and (max-width: 1070px) {
