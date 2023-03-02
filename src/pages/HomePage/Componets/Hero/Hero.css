@@ -22,7 +22,6 @@
 .hero__left__container {
     display: flex;
     flex-direction: column;
-    margin-right: 51px;
 }
 
 .hero__title__container {
