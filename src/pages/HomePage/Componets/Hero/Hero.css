@@ -69,9 +69,9 @@
     }
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1150px) {
     .hero__bg__img {
-        top: -27px;
+        top: -10px;
     }
 }
 
