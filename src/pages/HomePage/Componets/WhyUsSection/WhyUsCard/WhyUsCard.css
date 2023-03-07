@@ -7,14 +7,20 @@
     padding: 40px 19px 40px 40px;
 }
 
-.why_us__card__img {
-    width: 64px;
+.why-us__card__img__container {
     height: 68px;
-    margin-bottom: 20px;
-    background: var(--white);
-    border: 0.5px solid var(--white);
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
     border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.why_us__card__img {
+    width: 30px;
+    height: 36px;
 }
 
 .why_us__card__img img {
