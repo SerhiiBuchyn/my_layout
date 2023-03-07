@@ -12,3 +12,11 @@
         row-gap: 16px;
     }
 }
+
+@media screen and (max-width: 370px){
+    .customers-logo__list {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+}

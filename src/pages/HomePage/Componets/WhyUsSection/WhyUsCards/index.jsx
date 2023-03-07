@@ -1,10 +1,10 @@
 import React from "react";
 
 import { WhyUseCard } from "../../index";
-import cardImg0 from "../../../../../images/Group_120439.svg";
-import cardImg1 from "../../../../../images/Group_119120.svg";
-import cardImg2 from "../../../../../images/Group_120440.svg";
-import cardImg3 from "../../../../../images/Group.svg";
+import cardImg0 from "../../../../../images/messeng_icon.svg";
+import cardImg1 from "../../../../../images/horse_icon.svg";
+import cardImg2 from "../../../../../images/arrow_icon.svg";
+import cardImg3 from "../../../../../images/human_icon.svg";
 
 import "./WhyUsCards.css";
 
