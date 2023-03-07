@@ -29,14 +29,13 @@
 }
 
 .why-us__card__title {
-    font-size: 18px;
-    line-height: 29px;
-    margin-bottom: 15px;
+    line-height: 30px;
+    margin-bottom: 14px;
 }
 
 .why-us__card__description {
     max-width: 245px;
     font-size: 14px;
-    line-height: 23px;
+    line-height: 22px;
     text-align: inherit;
 }
