@@ -4,17 +4,23 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    padding: 40px 30px 40px 40px;
+    padding: 40px 19px 40px 40px;
+}
+
+.why-us__card__img__container {
+    height: 68px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 .why_us__card__img {
-    width: 64px;
-    height: 68px;
-    margin-bottom: 20px;
-    background: var(--white);
-    border: 0.5px solid var(--white);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-    border-radius: 4px;
+    width: 30px;
+    height: 36px;
 }
 
 .why_us__card__img img {
@@ -23,12 +29,14 @@
 }
 
 .why-us__card__title {
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 29px;
     margin-bottom: 15px;
 }
 
 .why-us__card__description {
     max-width: 245px;
+    font-size: 14px;
     line-height: 23px;
     text-align: inherit;
 }

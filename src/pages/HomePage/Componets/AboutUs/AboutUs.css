@@ -7,7 +7,7 @@
 }
 
 .about-us__left__container {
-    margin: 59px 0 59px 95px;
+    margin: 59px 0 59px 80px;
 }
 
 .about-us__title {
@@ -17,7 +17,7 @@
 .about-us__description {
     font-size: 14px;
     line-height: 25px;
-    max-width: 327px;
+    max-width: 360px;
     margin-bottom: 173px;
 }
 
