@@ -8,8 +8,8 @@ import "./Hero.css";
 
 const Hero = () => {
 	return (
-		<div className="hero container">
-			<div className="hero__wrapper">
+		<div className="hero ">
+			<div className="hero__wrapper container">
 				<div className="hero__mobile__logo">
 					<img className="hero__img" src={logo} alt="mobile-logo" />
 				</div>
